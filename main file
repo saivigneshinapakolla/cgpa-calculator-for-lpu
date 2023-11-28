@@ -1,0 +1,23 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter number of courses in yout semester\n";
+    cin>>n;float den=0;
+        float num=0,i=1;
+    while(n!=0){
+        
+        int credit;
+        cout<<"enter credits of your course "<<i<<endl;
+        i++;
+        cin>>credit;
+        cout<<"enter the grade points you have attained in your course\n";
+        int point;
+        cin>>point;
+        num+=credit*point;
+        den+=credit;n--;
+    }
+    cout<<"your cgpa is "<<fixed<<setprecision(2)<<num/den<<endl;
+    return 0;
+}
