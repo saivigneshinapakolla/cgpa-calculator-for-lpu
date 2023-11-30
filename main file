@@ -2,6 +2,8 @@
 #include<iomanip>
 using namespace std;
 int main(){
+    cout<<"----------WELCOME TO LPU CGPA CALCULATOR----------";
+    cout<<"\n------grade points according to grades in lpu------\n1.O - 10\n2.A+ - 9\n3.A - 8\n4.B+ - 7\n5.B - 6\n6.c - 5\n7.D - 4\n";
     int n;
     cout<<"enter number of courses in yout semester\n";
     cin>>n;float den=0;
